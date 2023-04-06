@@ -28,7 +28,7 @@ dependencies = [
     "scanpy",
     "anndata",
     "pandas",
-    "cv2",
+    "opencv-python",
     "tifffile",
     "seaborn",
     "matplotlib",
