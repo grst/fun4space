@@ -7,7 +7,7 @@
 [link-tests]: https://github.com/ucagenomix/fun4space/actions/workflows/test.yml
 [badge-docs]: https://img.shields.io/readthedocs/fun4space
 
-function 4 space
+Function kit 4 in-situ spatial omics data exploration
 
 ## Getting started
 
