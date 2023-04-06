@@ -19,7 +19,19 @@ urls.Documentation = "https://fun4space.readthedocs.io/"
 urls.Source = "https://github.com/ucagenomix/fun4space"
 urls.Home-page = "https://github.com/ucagenomix/fun4space"
 dependencies = [
+    "pandas>=1.1.1",  # pandas <1.1.1 has pandas/issues/35446
+    "numpy>=1.16.5",  # required by pandas 1.x
+    "scipy>1.4",
+    "h5py>=3",
+    "natsort",
+    "packaging>=20",
+    "scanpy",
     "anndata",
+    "pandas",
+    "cv2",
+    "tifffile",
+    "seaborn",
+    "matplotlib",
     # for debug logging (referenced from the issue template)
     "session-info"
 ]
