@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "1434c56aeae999b606cf30d7b8d57d491034afec",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "fun4space",
+      "package_name": "fun4space",
+      "project_description": "function 4 space",
+      "author_full_name": "lebrigand",
+      "author_email": "lebrigand@ipmc.cnrs.fr",
+      "github_user": "ucagenomix",
+      "project_repo": "https://github.com/ucagenomix/fun4space",
+      "license": "MIT License",
+      "_copy_without_render": [
+        ".github/workflows/**.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_template": "https://github.com/scverse/cookiecutter-scverse"
+    }
+  },
+  "directory": null
+}
